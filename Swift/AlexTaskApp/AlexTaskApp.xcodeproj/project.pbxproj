@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E65717531AFEDF7C009CE656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65717521AFEDF7C009CE656 /* AppDelegate.swift */; };
+		E65717561AFEDF7C009CE656 /* AlexTaskApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E65717541AFEDF7C009CE656 /* AlexTaskApp.xcdatamodeld */; };
+		E657175B1AFEDF7C009CE656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65717591AFEDF7C009CE656 /* Main.storyboard */; };
+		E657175D1AFEDF7C009CE656 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E657175C1AFEDF7C009CE656 /* Images.xcassets */; };
+		E65717601AFEDF7C009CE656 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E657175E1AFEDF7C009CE656 /* LaunchScreen.xib */; };
+		E657176C1AFEDF7C009CE656 /* AlexTaskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E657176B1AFEDF7C009CE656 /* AlexTaskAppTests.swift */; };
+		E65717761AFEE772009CE656 /* MainTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65717751AFEE772009CE656 /* MainTaskView.swift */; };
+		E65717781AFEE7CF009CE656 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65717771AFEE7CF009CE656 /* AddTaskView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E65717661AFEDF7C009CE656 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E65717451AFEDF7C009CE656 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E657174C1AFEDF7C009CE656;
+			remoteInfo = AlexTaskApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E657174D1AFEDF7C009CE656 /* AlexTaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexTaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65717511AFEDF7C009CE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E65717521AFEDF7C009CE656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E65717551AFEDF7C009CE656 /* AlexTaskApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlexTaskApp.xcdatamodel; sourceTree = "<group>"; };
+		E657175A1AFEDF7C009CE656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E657175C1AFEDF7C009CE656 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E657175F1AFEDF7C009CE656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E65717651AFEDF7C009CE656 /* AlexTaskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexTaskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E657176A1AFEDF7C009CE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E657176B1AFEDF7C009CE656 /* AlexTaskAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexTaskAppTests.swift; sourceTree = "<group>"; };
+		E65717751AFEE772009CE656 /* MainTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTaskView.swift; sourceTree = "<group>"; };
+		E65717771AFEE7CF009CE656 /* AddTaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E657174A1AFEDF7C009CE656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65717621AFEDF7C009CE656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E65717441AFEDF7C009CE656 = {
+			isa = PBXGroup;
+			children = (
+				E657174F1AFEDF7C009CE656 /* AlexTaskApp */,
+				E65717681AFEDF7C009CE656 /* AlexTaskAppTests */,
+				E657174E1AFEDF7C009CE656 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E657174E1AFEDF7C009CE656 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E657174D1AFEDF7C009CE656 /* AlexTaskApp.app */,
+				E65717651AFEDF7C009CE656 /* AlexTaskAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E657174F1AFEDF7C009CE656 /* AlexTaskApp */ = {
+			isa = PBXGroup;
+			children = (
+				E65717521AFEDF7C009CE656 /* AppDelegate.swift */,
+				E65717591AFEDF7C009CE656 /* Main.storyboard */,
+				E657175C1AFEDF7C009CE656 /* Images.xcassets */,
+				E657175E1AFEDF7C009CE656 /* LaunchScreen.xib */,
+				E65717541AFEDF7C009CE656 /* AlexTaskApp.xcdatamodeld */,
+				E65717501AFEDF7C009CE656 /* Supporting Files */,
+				E65717751AFEE772009CE656 /* MainTaskView.swift */,
+				E65717771AFEE7CF009CE656 /* AddTaskView.swift */,
+			);
+			path = AlexTaskApp;
+			sourceTree = "<group>";
+		};
+		E65717501AFEDF7C009CE656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E65717511AFEDF7C009CE656 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E65717681AFEDF7C009CE656 /* AlexTaskAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E657176B1AFEDF7C009CE656 /* AlexTaskAppTests.swift */,
+				E65717691AFEDF7C009CE656 /* Supporting Files */,
+			);
+			path = AlexTaskAppTests;
+			sourceTree = "<group>";
+		};
+		E65717691AFEDF7C009CE656 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E657176A1AFEDF7C009CE656 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E657174C1AFEDF7C009CE656 /* AlexTaskApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E657176F1AFEDF7C009CE656 /* Build configuration list for PBXNativeTarget "AlexTaskApp" */;
+			buildPhases = (
+				E65717491AFEDF7C009CE656 /* Sources */,
+				E657174A1AFEDF7C009CE656 /* Frameworks */,
+				E657174B1AFEDF7C009CE656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlexTaskApp;
+			productName = AlexTaskApp;
+			productReference = E657174D1AFEDF7C009CE656 /* AlexTaskApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E65717641AFEDF7C009CE656 /* AlexTaskAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E65717721AFEDF7C009CE656 /* Build configuration list for PBXNativeTarget "AlexTaskAppTests" */;
+			buildPhases = (
+				E65717611AFEDF7C009CE656 /* Sources */,
+				E65717621AFEDF7C009CE656 /* Frameworks */,
+				E65717631AFEDF7C009CE656 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E65717671AFEDF7C009CE656 /* PBXTargetDependency */,
+			);
+			name = AlexTaskAppTests;
+			productName = AlexTaskAppTests;
+			productReference = E65717651AFEDF7C009CE656 /* AlexTaskAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E65717451AFEDF7C009CE656 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ryan Rudzitis";
+				TargetAttributes = {
+					E657174C1AFEDF7C009CE656 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					E65717641AFEDF7C009CE656 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = E657174C1AFEDF7C009CE656;
+					};
+				};
+			};
+			buildConfigurationList = E65717481AFEDF7C009CE656 /* Build configuration list for PBXProject "AlexTaskApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E65717441AFEDF7C009CE656;
+			productRefGroup = E657174E1AFEDF7C009CE656 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E657174C1AFEDF7C009CE656 /* AlexTaskApp */,
+				E65717641AFEDF7C009CE656 /* AlexTaskAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E657174B1AFEDF7C009CE656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E657175B1AFEDF7C009CE656 /* Main.storyboard in Resources */,
+				E65717601AFEDF7C009CE656 /* LaunchScreen.xib in Resources */,
+				E657175D1AFEDF7C009CE656 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65717631AFEDF7C009CE656 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E65717491AFEDF7C009CE656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65717761AFEE772009CE656 /* MainTaskView.swift in Sources */,
+				E65717561AFEDF7C009CE656 /* AlexTaskApp.xcdatamodeld in Sources */,
+				E65717531AFEDF7C009CE656 /* AppDelegate.swift in Sources */,
+				E65717781AFEE7CF009CE656 /* AddTaskView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65717611AFEDF7C009CE656 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E657176C1AFEDF7C009CE656 /* AlexTaskAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E65717671AFEDF7C009CE656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E657174C1AFEDF7C009CE656 /* AlexTaskApp */;
+			targetProxy = E65717661AFEDF7C009CE656 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E65717591AFEDF7C009CE656 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E657175A1AFEDF7C009CE656 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E657175E1AFEDF7C009CE656 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E657175F1AFEDF7C009CE656 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E657176D1AFEDF7C009CE656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E657176E1AFEDF7C009CE656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E65717701AFEDF7C009CE656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlexTaskApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E65717711AFEDF7C009CE656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AlexTaskApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E65717731AFEDF7C009CE656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlexTaskAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlexTaskApp.app/AlexTaskApp";
+			};
+			name = Debug;
+		};
+		E65717741AFEDF7C009CE656 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AlexTaskAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlexTaskApp.app/AlexTaskApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E65717481AFEDF7C009CE656 /* Build configuration list for PBXProject "AlexTaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E657176D1AFEDF7C009CE656 /* Debug */,
+				E657176E1AFEDF7C009CE656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E657176F1AFEDF7C009CE656 /* Build configuration list for PBXNativeTarget "AlexTaskApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65717701AFEDF7C009CE656 /* Debug */,
+				E65717711AFEDF7C009CE656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E65717721AFEDF7C009CE656 /* Build configuration list for PBXNativeTarget "AlexTaskAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E65717731AFEDF7C009CE656 /* Debug */,
+				E65717741AFEDF7C009CE656 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E65717541AFEDF7C009CE656 /* AlexTaskApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E65717551AFEDF7C009CE656 /* AlexTaskApp.xcdatamodel */,
+			);
+			currentVersion = E65717551AFEDF7C009CE656 /* AlexTaskApp.xcdatamodel */;
+			path = AlexTaskApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E65717451AFEDF7C009CE656 /* Project object */;
+}
